@@ -1,8 +1,26 @@
 aid: loft
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loft.png
 name: Loft
-description: Loft is a company surfaced as a portfolio company of a16z, d1-capital, fifth-wall, qed-investors
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Loft is a Brazilian real estate technology (proptech) company founded in 2018 and headquartered
+  in Sao Paulo. It operates a marketplace for buying, selling, and renting residential property alongside
+  a broad platform of software and financial services for the real estate sector, including a CRM and
+  property-management tools for agencies, digital proposals and e-signatures, lead generation, rental
+  administration, and fintech products such as rental guarantees (Fianca Aluguel), home financing, credit
+  with property collateral, and residential and commercial insurance. Backed by a16z, QED Investors,
+  Fifth Wall, D1 Capital, Thrive Capital, and Baillie Gifford, Loft is a market leader in Brazil's real
+  estate fintech space. Loft does not publish a public developer API, OpenAPI definitions, or client SDKs;
+  its GitHub organization (loft-br) hosts internal engineering and data-science tooling.
 url: https://raw.githubusercontent.com/api-evangelist/loft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Proptech
+- Fintech
+- Marketplace
+- Brazil
+- Property Management
+- CRM
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/loft-domain-security.yml
 - type: Website
   url: https://loft.com.br
+- type: Portal
+  url: https://portal.loft.com.br/
+- type: Support
+  url: https://ajuda.loft.com.br/s/
+- type: TermsOfService
+  url: https://loft.com.br/institucional/termos-e-condicoes-de-uso
+- type: PrivacyPolicy
+  url: https://loft.com.br/institucional/politica-de-privacidade
+- type: GitHubOrganization
+  url: https://github.com/loft-br
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
