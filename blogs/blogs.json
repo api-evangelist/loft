@@ -1,0 +1,11 @@
+{
+  "repo": "loft",
+  "feeds": [
+    {
+      "source": "https://portal.loft.com.br/feed/",
+      "error": "URLError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
